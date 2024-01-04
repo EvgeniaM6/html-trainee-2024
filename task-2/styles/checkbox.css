@@ -1,0 +1,28 @@
+.checkbox + .pure-css__label::before {
+  content: '';
+  color: #868686;
+  box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 26px;
+  height: 26px;
+  border: 1px solid #c3c3c3;
+  background: linear-gradient(#ffffff, #e4e4e4);
+  cursor: pointer;
+}
+
+.checkbox:checked + .pure-css__label::before {
+  content: '✔';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background: linear-gradient(#e9ecee, #c1c4c6);
+}
+
+.checkbox ~ .pure-css__checked {
+  display: none;
+}

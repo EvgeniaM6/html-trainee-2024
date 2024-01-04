@@ -1,0 +1,27 @@
+.radio + .pure-css__label::before {
+  content: '';
+  box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid #c3c3c3;
+  background: linear-gradient(#ffffff, #e4e4e4);
+  cursor: pointer;
+}
+
+.radio:checked ~ .pure-css__checked {
+  position: absolute;
+  z-index: 1;
+  left: 13px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: radial-gradient(#a3a3a3, #868686);
+}

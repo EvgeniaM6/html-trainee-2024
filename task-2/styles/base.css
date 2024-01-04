@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.pure-css__form {
+  display: flex;
+}
+
+.pure-css__block {
+  margin-right: 50px;
+}
+
+.pure-css__block:last-child {
+  margin-right: 0;
+}
+
+.pure-css__fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pure-css__container {
+  position: relative;
+}
+
+.pure-css__input {
+  display: none;
+}
+
+.pure-css__label {
+  margin-left: 30px;
+  font-size: 26px;
+  cursor: pointer;
+}

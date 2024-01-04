@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Task 2</title>
+</head>
+<body>
+  <div class="pure-css">
+    <form class="pure-css__form">
+      <div class="pure-css__block">
+        <fieldset class="pure-css__fieldset">
+          <div class="pure-css__container">
+            <input type="radio" id="radiobox-1" name="radiobox" class="pure-css__input radio">
+            <label for="radiobox-1" class="pure-css__label">Pure CSS Radiobox 1</label>
+            <div class="pure-css__checked"></div>
+          </div>
+          <div class="pure-css__container">
+            <input type="radio" id="radiobox-2" name="radiobox" class="pure-css__input radio">
+            <label for="radiobox-2" class="pure-css__label">Pure CSS Radiobox 2</label>
+            <div class="pure-css__checked"></div>
+          </div>
+        </fieldset>
+        <fieldset class="pure-css__fieldset">
+          <div class="pure-css__container">
+            <input type="checkbox" id="checkbox-1" name="checkbox" class="pure-css__input checkbox">
+            <label for="checkbox-1" class="pure-css__label">Pure CSS Checkbox 1</label>
+            <div class="pure-css__checked">✔</div>
+          </div>
+          <div class="pure-css__container">
+            <input type="checkbox" id="checkbox-2" name="checkbox" class="pure-css__input checkbox">
+            <label for="checkbox-2" class="pure-css__label">Pure CSS Checkbox 2</label>
+            <div class="pure-css__checked">✔</div>
+          </div>
+        </fieldset>
+      </div>
+      <div class="pure-css__block">
+        <details class="pure-css__fieldset select">
+          <summary class="select__block">
+            <input
+              type="radio"
+              name="option"
+              id="option1"
+              class="select__option"
+              title="Once a day"
+              value="day"
+              checked
+            >
+            <input
+              type="radio"
+              name="option"
+              id="option2"
+              class="select__option"
+              title="Once a week"
+              value="week"
+            >
+            <input
+              type="radio"
+              name="option"
+              id="option3"
+              class="select__option"
+              title="Once a month"
+              value="month"
+            >
+          </summary>
+          <ul class="select__list">
+            <li class="select__list-item">
+              <label for="option1" class="select__label">Once a day</label>
+            </li>
+            <li class="select__list-item">
+              <label for="option2" class="select__label">Once a week</label>
+            </li>
+            <li class="select__list-item">
+              <label for="option3" class="select__label">Once a month</label>
+            </li>
+          </ul>
+        </details>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
