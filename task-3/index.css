@@ -1,0 +1,35 @@
+.container {
+  height: 450px;
+  border: 1px solid #b0b0b0;
+  margin-bottom: 10px;
+}
+
+.container:last-child {
+  margin-bottom: 0;
+}
+
+.item {
+  background-color: #ffe5e5;
+  width: calc(100% * 60 / 960);
+}
+
+.inline {
+  word-spacing: -4px;
+}
+
+.inline .item {
+  display: inline-block;
+  height: 100%;
+  margin: 0 calc(100% * 10 / 960);
+}
+
+.float .item {
+  height: 100%;
+  float: inline-start;
+  margin: 0 calc(100% * 10 / 960);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
