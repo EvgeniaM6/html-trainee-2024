@@ -36,46 +36,15 @@
         </fieldset>
       </div>
       <div class="pure-css__block">
-        <details class="pure-css__fieldset select">
-          <summary class="select__block">
-            <input
-              type="radio"
-              name="option"
-              id="option1"
-              class="select__option"
-              title="Once a day"
-              value="day"
-              checked
-            >
-            <input
-              type="radio"
-              name="option"
-              id="option2"
-              class="select__option"
-              title="Once a week"
-              value="week"
-            >
-            <input
-              type="radio"
-              name="option"
-              id="option3"
-              class="select__option"
-              title="Once a month"
-              value="month"
-            >
-          </summary>
-          <ul class="select__list">
-            <li class="select__list-item">
-              <label for="option1" class="select__label">Once a day</label>
-            </li>
-            <li class="select__list-item">
-              <label for="option2" class="select__label">Once a week</label>
-            </li>
-            <li class="select__list-item">
-              <label for="option3" class="select__label">Once a month</label>
-            </li>
-          </ul>
-        </details>
+        <fieldset class="pure-css__fieldset">
+          <label class="pure-css__select-label">
+            <select name="select" id="select-1" class="pure-css__select">
+              <option value="day" class="pure-css__option">Once a day</option>
+              <option value="week" class="pure-css__option">Once a week</option>
+              <option value="month" class="pure-css__option">Once a month</option>
+            </select>
+          </label>
+        </fieldset>
       </div>
     </form>
   </div>
