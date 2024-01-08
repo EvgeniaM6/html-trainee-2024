@@ -1,0 +1,28 @@
+.body {
+  position: relative;
+  margin: 0;
+  margin-bottom: 200px;
+  min-height: calc(100vh - 200px);
+}
+
+h1 {
+  margin: 0;
+  color: #ff0000;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #ffffff;
+  height: 200px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  display: block;
+}
