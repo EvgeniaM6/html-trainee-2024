@@ -20,18 +20,39 @@ body {
   padding: 20px;
 }
 
-.col-5 {
+.wrapper .col-5 {
   width: 40%;
 }
 
-.col-2 {
+.wrapper .col-2 {
   width: 16%;
 }
 
 .paragraph {
   margin: 0 0 10px 0;
+  word-break: break-word;
 }
 
 .paragraph:last-child {
   margin: 0;
+}
+
+.wrapper-2 {
+  display: table;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-spacing: 10px 0px;
+}
+
+.wrapper-2 .col-5,
+.wrapper-2 .col-2 {
+  display: table-cell;
+}
+
+.wrapper-2 .col-5 {
+  width: calc((100% / 12 * 5));
+}
+
+.wrapper-2 .col-2 {
+  width: calc((100% / 12 * 2));
 }
