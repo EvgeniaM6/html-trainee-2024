@@ -1,0 +1,28 @@
+.sprite-container {
+  width: 76px;
+  height: 400%;
+}
+
+[class^="icon"] {
+  width: 100%;
+  padding-bottom: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./assets/sprite.png');
+}
+
+.icon-1 {
+  background-position: 0 0;
+}
+
+.icon-2 {
+  background-position: 0 calc(100% / 3);
+}
+
+.icon-3 {
+  background-position: 0 calc(100% * 2 / 3);
+}
+
+.icon-4 {
+  background-position: 0 calc(100%);
+}
