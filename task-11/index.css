@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+ol > li {
+  position: relative;
+  background-color: #f6f6f6;
+  margin-bottom: 5px;
+  border-top: 2px solid #666666;
+}
+
+ol > li::before {
+  content: counter(list-item);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -2px;
+  right: 100%;
+  width: 26px;
+  height: 28px;
+  color: white;
+  background-color: #666666;
+}
+
+ol > li::marker {
+  content: '';
+}
+
+li li:first-child {
+  margin-top: 5px;
+}
