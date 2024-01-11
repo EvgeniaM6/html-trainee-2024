@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+  min-height: calc(100vh + 30px);
+  display: table;
+  border-spacing: 0 30px;
+  margin: -30px 0;
+}
+
+.header {
+  display: table-header-group;
+}
+
+.main {
+  display: table-row;
+}
+
+h1 {
+  margin: 0;
+  color: #ff0000;
+}
+
+p {
+  margin: 0;
+}
+
+.footer {
+  display: table-footer-group;
+  background: #ffffff;
+  height: 200px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  display: block;
+}
