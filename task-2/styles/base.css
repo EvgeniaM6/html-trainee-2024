@@ -29,6 +29,7 @@
 }
 
 .pure-css__label {
+  display: inline-block;
   margin-left: 30px;
   font-size: 26px;
   cursor: pointer;

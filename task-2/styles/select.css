@@ -26,7 +26,8 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   background: #e9ecee;
-  padding: 5px;
+  padding: 5px 35px 5px 10px;
+  text-overflow: ellipsis;
   border: none;
   outline: none;
   width: 250px;
