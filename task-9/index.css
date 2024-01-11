@@ -1,28 +1,61 @@
-.sprite-container {
-  width: 76px;
-  height: 400%;
+.main-container {
+  display: flex;
 }
 
-[class^="icon"] {
-  width: 100%;
-  padding-bottom: 100%;
+.sprite-container {
+  width: 76px;
+  height: 304px;
+  margin-right: 20px;
+}
+
+.sprite-container:last-child {
+  margin-right: 20px;
+}
+
+.sprite-container.big {
+  width: 152px;
+  height: 608px;
+}
+
+.sprite-container [class^="icon"] {
+  width: 76px;
+  height: 76px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('./assets/sprite.png');
+  background-size: 76px 304px;
 }
 
-.icon-1 {
+.sprite-container.big [class^="icon"] {
+  width: 152px;
+  height: 152px;
+  background-size: 152px 608px;
+}
+
+.sprite-container .icon-1 {
   background-position: 0 0;
 }
 
-.icon-2 {
-  background-position: 0 calc(100% / 3);
+.sprite-container .icon-2 {
+  background-position: 0 -76px;
 }
 
-.icon-3 {
-  background-position: 0 calc(100% * 2 / 3);
+.sprite-container .icon-3 {
+  background-position: 0 -152px;
 }
 
-.icon-4 {
-  background-position: 0 calc(100%);
+.sprite-container .icon-4 {
+  background-position: 0 -228px;
+}
+
+.sprite-container.big .icon-2 {
+  background-position: 0 -152px;
+}
+
+.sprite-container.big .icon-3 {
+  background-position: 0 -304px;
+}
+
+.sprite-container.big .icon-4 {
+  background-position: 0 -456px;
 }
