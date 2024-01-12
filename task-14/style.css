@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  max-width: 440px;
+  padding: 10px 5px 17px;
+  border: 7px solid #f6f6f6;
+  outline: 1px solid #cccccc;
+  line-height: 1.25;
+}
+
+p {
+  margin: 0 0 16px 0;
+}
+
+p:last-child {
+  margin: 0;
+}
