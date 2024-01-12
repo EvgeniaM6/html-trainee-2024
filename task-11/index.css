@@ -1,14 +1,23 @@
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
+}
+
+ol {
+  counter-reset: list-item;
+  list-style: none;
 }
 
 li {
   padding: 5px;
   font-family: sans-serif;
+  word-break: break-word;
 }
 
 ol > li {
   position: relative;
+  counter-increment: list-item;
   background-color: #f6f6f6;
   margin-bottom: 5px;
   border-top: 2px solid #666666;
@@ -26,10 +35,6 @@ ol > li::before {
   height: 28px;
   color: white;
   background-color: #666666;
-}
-
-ol > li::marker {
-  content: '';
 }
 
 li li:first-child {
