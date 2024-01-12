@@ -47,6 +47,12 @@ body {
   position: relative;
   padding: 10px 20px;
   cursor: pointer;
+  max-width: 200px;
+  text-overflow: ellipsis;
+}
+
+.header__item .header__item {
+  overflow: hidden;
 }
 
 .header__item:hover {
