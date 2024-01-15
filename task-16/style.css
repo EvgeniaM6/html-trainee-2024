@@ -1,0 +1,12 @@
+@import url('./styles/reset.css');
+
+.main {
+  padding: 10px;
+}
+
+.block {
+  width: 600px;
+  height: 300px;
+  border: 1px solid #cccccc;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.8), inset 0px 0px 20px -7px rgba(0, 0, 0, 0.3);
+}
