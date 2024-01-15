@@ -1,13 +1,13 @@
-* {
-  box-sizing: border-box;
-}
+@import url('./styles/reset.css');
 
 .content {
   max-width: 440px;
   padding: 10px 5px 17px;
   border: 7px solid #f6f6f6;
   outline: 1px solid #cccccc;
+  font-family: serif;
   line-height: 1.25;
+  word-break: break-word;
 }
 
 p {
