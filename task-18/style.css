@@ -1,0 +1,23 @@
+@import url('./styles/reset.css');
+
+.main {
+  padding: 10px;
+}
+
+.container {
+  overflow-x: auto;
+}
+
+table {
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid #c4c4c4;
+}
+
+th, td {
+  padding: 5px;
+}
+
+tr:nth-child(odd) td {
+  background-color: #f2f2f2;
+}
