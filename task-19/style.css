@@ -1,0 +1,19 @@
+@import url('./styles/reset.css');
+
+.main {
+  padding: 10px;
+}
+
+table {
+  color: #7e7e7e;
+}
+
+th {
+  writing-mode: vertical-rl;
+}
+
+td, th {
+  padding: 5px;
+  border: 1px solid;
+  text-align: center;
+}
