@@ -16,4 +16,6 @@ td, th {
   padding: 5px;
   border: 1px solid;
   text-align: center;
+  max-height: 500px;
+  word-break: break-word;
 }
