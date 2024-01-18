@@ -9,7 +9,7 @@
 
 .container {
   display: flex;
-  height: 50px;
+  min-height: 50px;
   overflow: hidden;
   margin-bottom: 20px;
   width: 100%;
@@ -43,14 +43,20 @@
 .step::after {
   content: '';
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: auto;
+  height: 100%;
+  aspect-ratio: 1 / 1;
   left: 100%;
   z-index: 5;
   transform: rotate(45deg) translate(-50%, 50%);
   top: 0;
   border-top: 2px solid white;
   border-right: 2px solid white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+}
+
+.step:last-child:after {
+  display: none;
 }
 
 .green,
