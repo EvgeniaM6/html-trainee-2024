@@ -8,8 +8,10 @@
   position: relative;
   display: flex;
   justify-content: center;
-  width: 64%;
-  padding-bottom: 36%;
+  width: 100%;
+  height: auto;
+  max-width: 50%;
+  aspect-ratio: 16 / 9;
   border: 1px solid #000000;
   margin-bottom: 10px;
 }
