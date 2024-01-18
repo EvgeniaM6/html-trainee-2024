@@ -9,13 +9,25 @@ table {
 }
 
 th {
-  writing-mode: vertical-rl;
+  position: relative;
+  height: 150px;
+  overflow: hidden;
 }
 
 td, th {
-  padding: 5px;
+  padding: 10px;
   border: 1px solid;
   text-align: center;
   max-height: 500px;
   word-break: break-word;
+}
+
+th span {
+  position: absolute;
+  width: 140px;
+  text-align: center;
+  top: 5px;
+  left: 100%;
+  transform: rotate(90deg);
+  transform-origin: 0% 0%;
 }
