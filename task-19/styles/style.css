@@ -6,6 +6,8 @@
 
 table {
   color: #7e7e7e;
+  border-collapse: collapse;
+  font-family: sans-serif;
 }
 
 th {
