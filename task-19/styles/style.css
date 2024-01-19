@@ -29,7 +29,7 @@ th span {
   width: 140px;
   text-align: center;
   top: 5px;
-  left: 100%;
-  transform: rotate(90deg);
+  left: 50%;
+  transform: rotate(90deg) translateY(-50%);
   transform-origin: 0% 0%;
 }
