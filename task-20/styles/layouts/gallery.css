@@ -1,0 +1,43 @@
+.gallery {
+  display: flex;
+}
+
+.gallery__item {
+  width: 33.333333333333333333%;
+}
+
+.gallery__btn {
+  background-color: #5b0fa1;
+}
+
+.gallery__btn:hover {
+  background-color: rgba(91, 15, 161, 0.8);
+}
+
+@media (max-width: 640px) {
+  .gallery {
+    flex-wrap: wrap;
+  }
+
+  .gallery__item {
+    width: 100%;
+  }
+
+  .gallery__btn {
+    aspect-ratio: 1 / 1;
+    font-size: 118px;
+    line-height: 65px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery__btn {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .gallery__btn {
+    font-size: 46px;
+  }
+}

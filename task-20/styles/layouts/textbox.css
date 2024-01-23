@@ -1,0 +1,66 @@
+.textbox {
+  display: flex;
+}
+
+.textbox__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #27212c;
+  font-size: 30px;
+  line-height: 65px;
+  color: #9282a0;
+  font-weight: 400;
+  font-family: "Montserrat";
+  flex-grow: 1;
+}
+
+.textbox__btn {
+  background-color: #bc3183;
+  width: auto;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  flex-grow: 1;
+  font-size: 50px;
+  line-height: 65px;
+}
+
+.textbox__btn:hover {
+  background-color: rgba(188, 49, 131, .8);
+}
+
+@media (max-width: 640px) {
+  .textbox__text {
+    font-size: 20px;
+    line-height: 42px;
+  }
+
+  .textbox__btn {
+    font-size: 34px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .textbox__text {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .textbox__btn {
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .textbox__text {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .textbox__btn {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
