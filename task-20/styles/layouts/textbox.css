@@ -7,32 +7,51 @@
   justify-content: center;
   align-items: center;
   background-color: #27212c;
+  color: #9282a0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.textbox__text-paragraph {
   font-size: 30px;
   line-height: 65px;
-  color: #9282a0;
   font-weight: 400;
   font-family: "Montserrat";
-  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 60px;
 }
 
 .textbox__btn {
   background-color: #bc3183;
   width: auto;
-  height: 100%;
   aspect-ratio: 1 / 1;
   flex-grow: 1;
   font-size: 50px;
   line-height: 65px;
+  height: 200px;
 }
 
 .textbox__btn:hover {
   background-color: rgba(188, 49, 131, .8);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1024px) {
   .textbox__text {
+    max-width: 80%;
+  }
+
+  .textbox__btn {
+    height: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .textbox__text-paragraph {
     font-size: 20px;
     line-height: 42px;
+    padding: 0 30px;
   }
 
   .textbox__btn {
@@ -42,9 +61,10 @@
 }
 
 @media (max-width: 480px) {
-  .textbox__text {
+  .textbox__text-paragraph {
     font-size: 14px;
     line-height: 30px;
+    padding: 0 22px;
   }
 
   .textbox__btn {
@@ -54,9 +74,10 @@
 }
 
 @media (max-width: 320px) {
-  .textbox__text {
+  .textbox__text-paragraph {
     font-size: 10px;
     line-height: 20px;
+    padding: 0 15px;
   }
 
   .textbox__btn {

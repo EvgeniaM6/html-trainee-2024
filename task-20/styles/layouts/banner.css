@@ -11,12 +11,14 @@
 .banner__title {
   font-size: 60px;
   line-height: 65px;
+  word-break: break-word;
 }
 
 .banner__text {
   font-size: 34px;
   line-height: 65px;
   opacity: 0.502;
+  word-break: break-word;
 }
 
 .banner__btn {

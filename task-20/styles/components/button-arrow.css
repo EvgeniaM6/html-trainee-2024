@@ -6,4 +6,5 @@
   color: #ffffff;
   font-weight: 700;
   font-family: "Quicksand";
+  transition: all .3s ease-in-out;
 }

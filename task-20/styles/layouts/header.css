@@ -12,6 +12,9 @@
   color: #ebebeb;
   font-weight: 400;
   font-family: "Montserrat";
+  max-width: 280px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .header__btn {
@@ -23,11 +26,6 @@
   align-items: center;
   width: 90px;
   border: none;
-  outline: none;
-}
-
-.header__btn:focus {
-  outline: none;
 }
 
 .header__btn-line {
@@ -49,6 +47,10 @@
   padding: 0;
 }
 
+.nav__list-item {
+  max-width: 20%;
+}
+
 .nav__button {
   font-size: 15px;
   line-height: 26px;
@@ -58,8 +60,11 @@
   text-transform: uppercase;
   background: none;
   border: none;
-  outline: none;
   padding: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  transition: all .3s ease-in-out;
 }
 
 .nav__button:hover {
@@ -107,10 +112,7 @@
 
   .nav__list-item {
     width: 100%;
-  }
-
-  .nav__button {
-    width: 100%;
+    max-width: 200px;
   }
 }
 
