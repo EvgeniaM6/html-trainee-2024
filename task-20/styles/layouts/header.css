@@ -1,5 +1,9 @@
 .header {
-  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
   background-color: #373c3f;
   padding: 10px 20px;
 }
@@ -95,10 +99,11 @@
   }
 
   .nav {
-    position: absolute;
+    position: fixed;
     z-index: 5;
     right: -200%;
-    top: 100%;
+    top: 0;
+    height: 100vh;
     background-color: #373c3f;
   }
 

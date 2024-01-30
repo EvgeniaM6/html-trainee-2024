@@ -2,6 +2,7 @@
   background: linear-gradient(119deg, #1faaba, #0a88a3);
   color: #ffffff;
   padding: 150px 120px 100px 100px;
+  margin-top: 86px;
 }
 
 .banner__content {
@@ -43,6 +44,7 @@
 @media (max-width: 640px) {
   .banner {
     padding: 120px 120px 80px 55px;
+    margin-top: 66px;
   }
 
   .banner__title {
@@ -64,6 +66,7 @@
 @media (max-width: 480px) {
   .banner {
     padding: 67px 34px 35px 32px;
+    margin-top: 43px;
   }
 
   .banner__title {
