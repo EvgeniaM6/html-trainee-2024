@@ -14,18 +14,20 @@
   word-break: break-word;
 }
 
+.banner__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 .banner__text {
   font-size: 34px;
   line-height: 65px;
   opacity: 0.502;
   word-break: break-word;
-  padding-right: 100px;
 }
 
 .banner__btn {
-  position: absolute;
-  bottom: 0;
-  right: 0;
   width: 100px;
 }
 
@@ -72,6 +74,10 @@
   .banner__text {
     font-size: 18px;
     line-height: 30px;
+  }
+
+  .banner__btn {
+    width: 50px;
   }
 }
 

@@ -23,12 +23,17 @@
   padding: 0 60px;
 }
 
-.textbox__btn {
-  background-color: #bc3183;
+.textbox__button {
   width: auto;
   aspect-ratio: 1 / 1;
   flex-grow: 1;
   height: 200px;
+}
+
+.textbox__btn {
+  background-color: #bc3183;
+  width: 100%;
+  height: 100%;
 }
 
 .textbox__btn:hover {
@@ -40,7 +45,7 @@
     max-width: 80%;
   }
 
-  .textbox__btn {
+  .textbox__button {
     height: 100%;
   }
 }
